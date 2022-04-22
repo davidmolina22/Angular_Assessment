@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Exercise } from 'src/app/inicio/interfaces/exercise.interface';
+import { ExercisesService } from 'src/app/inicio/services/exercises.service';
 
 @Component({
   selector: 'app-card-list',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardListComponent {
 
-  constructor() { }
+  constructor(private exercicesService: ExercisesService) { }
 
-  exercices: string[] = ['Display/Hide'];
+  exercices = this.exercicesService.exercices;
 }

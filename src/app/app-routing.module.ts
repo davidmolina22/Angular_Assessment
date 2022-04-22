@@ -9,7 +9,7 @@ const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: 'exercise/:id',
+    path: 'display_hide',
     component: InicioComponent // TODO: Cambiar este componente
   }
 ];

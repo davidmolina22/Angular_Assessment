@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DisplayHideModule } from './display-hide/display-hide.module';
 import { InicioModule } from './inicio/inicio.module';
 
 @NgModule({
@@ -12,7 +13,8 @@ import { InicioModule } from './inicio/inicio.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    InicioModule
+    InicioModule,
+    DisplayHideModule
   ],
   providers: [],
   bootstrap: [AppComponent]

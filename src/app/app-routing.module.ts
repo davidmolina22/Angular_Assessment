@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DisplayHideComponent } from './display-hide/pages/display-hide/display-hide.component';
 import { InicioComponent } from './inicio/pages/inicio/inicio.component';
 
 const routes: Routes = [
@@ -10,7 +11,7 @@ const routes: Routes = [
   },
   {
     path: 'display_hide',
-    component: InicioComponent // TODO: Cambiar este componente
+    component: DisplayHideComponent // TODO: Cambiar este componente
   }
 ];
 

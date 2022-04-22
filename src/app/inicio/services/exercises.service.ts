@@ -5,9 +5,9 @@ import { Exercise } from '../interfaces/exercise.interface';
   providedIn: 'root'
 })
 export class ExercisesService {
-  private _exercices: Exercise[] = [{name:'Display/Hide', url: 'display_hide'}];
+  private _exercises: Exercise[] = [{name:'Display/Hide', url: 'display_hide'}];
 
-  get exercices () {
-    return this._exercices;
+  get exercises () {
+    return this._exercises;
   }
 }

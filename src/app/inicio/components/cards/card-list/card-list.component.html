@@ -1,3 +1,3 @@
-<div *ngFor="let exercise of exercices; let i = index" class="card-list">
+<div *ngFor="let exercise of exercises; let i = index" class="card-list">
     <app-card [exerciseName]="exercise.name" [index]="(i + 1).toString()" class="card" [routerLink]="exercise.url"></app-card>
 </div>

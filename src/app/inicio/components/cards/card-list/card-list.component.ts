@@ -11,5 +11,5 @@ export class CardListComponent {
 
   constructor(private exercicesService: ExercisesService) { }
 
-  exercices = this.exercicesService.exercices;
+  exercises = this.exercicesService.exercises;
 }

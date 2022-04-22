@@ -17,6 +17,10 @@ const routes: Routes = [
   {
     path: 'search_on_type',
     component: SearchOnTypeComponent
+  },
+  {
+    path: '**',
+    redirectTo: ''
   }
 ];
 

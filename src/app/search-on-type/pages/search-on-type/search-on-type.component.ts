@@ -16,8 +16,12 @@ export class SearchOnTypeComponent {
   searchCountries(term: string) {
     this.term = term;
 
+    // We call the service to make the request
+
     this.searchService.searchCountries(term).subscribe(
+      // If there is response, we save paises
       (paises) => (this.paises = paises),
+      // If there is any error, we initialize paises to an empty array
       (err) => (this.paises = [])
     );
   }

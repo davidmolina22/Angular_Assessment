@@ -11,5 +11,6 @@ export class CardListComponent {
 
   constructor(private exercicesService: ExercisesService) { }
 
+  // We get the exercises from the service
   exercises = this.exercicesService.exercises;
 }

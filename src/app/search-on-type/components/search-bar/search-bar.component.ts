@@ -10,7 +10,7 @@ export class SearchBarComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    this.debouncer.pipe(debounceTime(200)).subscribe((value) => {
+    this.debouncer.pipe(debounceTime(10)).subscribe((value) => {
       this.onDebounce.emit(value);
     });
   }

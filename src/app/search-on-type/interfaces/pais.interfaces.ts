@@ -1,3 +1,5 @@
+// Interface made with https://quicktype.io/
+
 export interface Pais {
   name: Name;
   tld: string[];

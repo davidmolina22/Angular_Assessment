@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponent {
   constructor() {}
 
+  // We get the properties from the parent (card-list)
   @Input() exerciseName: string = '';
   @Input() index: string = '0';
 }

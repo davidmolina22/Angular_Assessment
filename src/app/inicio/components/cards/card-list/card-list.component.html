@@ -1,3 +1,4 @@
 <div *ngFor="let exercise of exercises; let i = index" class="card-list">
+    <!-- We pass the exercise properties from the service to the component -->
     <app-card [exerciseName]="exercise.name" [index]="(i + 1).toString()" class="card" [routerLink]="exercise.url"></app-card>
 </div>

@@ -1,7 +1,9 @@
 <h4>Display / Hide (exercise 1)</h4>
 
 <div class="container">
+  <!-- Onclick, we call changeVisibility -->
   <button (click)="changeVisibility()">Show / Hide</button>
 
+  <!-- If show === true, we can see the div otherwhise we cannot see it -->
   <div *ngIf="show" class="text">Angular is amazing!</div>
 </div>

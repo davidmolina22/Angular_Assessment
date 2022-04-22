@@ -5,9 +5,11 @@ import { Exercise } from '../interfaces/exercise.interface';
   providedIn: 'root',
 })
 export class ExercisesService {
+  
+  // Array of exercises
   private _exercises: Exercise[] = [
     { name: 'Display/Hide', url: 'display_hide' },
-    { name: 'Search on Typing', url: 'search_on_type' },
+    { name: 'Search on Typing', url: 'search_on_type' }, 
   ];
 
   get exercises() {

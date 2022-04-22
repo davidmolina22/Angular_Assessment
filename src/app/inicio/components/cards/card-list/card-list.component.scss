@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: orange;
+  border: 2px solid black;
+  justify-content: space-between;
+  border-radius: 14px;
+  width: 75vh;
+  cursor: pointer;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}

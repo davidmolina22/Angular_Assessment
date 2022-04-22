@@ -1,0 +1,10 @@
+<form action="" autocomplete="off" class="search-bar" (ngSubmit)="search()">
+  <input
+    type="text"
+    name="termino"
+    class="form-control"
+    placeholder="Buscar país..."
+    [(ngModel)]="term"
+    (input)="keyPressed()"
+    />
+</form>

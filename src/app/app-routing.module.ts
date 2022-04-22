@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DisplayHideComponent } from './display-hide/pages/display-hide/display-hide.component';
 import { InicioComponent } from './inicio/pages/inicio/inicio.component';
+import { SearchOnTypeComponent } from './search-on-type/pages/search-on-type/search-on-type.component';
 
 const routes: Routes = [
   {
@@ -11,7 +12,11 @@ const routes: Routes = [
   },
   {
     path: 'display_hide',
-    component: DisplayHideComponent // TODO: Cambiar este componente
+    component: DisplayHideComponent
+  },
+  {
+    path: 'search_on_type',
+    component: SearchOnTypeComponent
   }
 ];
 

@@ -1,0 +1,15 @@
+<h1>PARENT</h1>
+<div class="buttons">
+  <button (click)="setTextFromService()">Use Service</button>
+  <button (click)="setTextToChild()">Use Input Property</button>
+  <button (click)="setTextFromSubject()">Use Observable</button>
+</div>
+<p>
+  Message: <strong>{{ inputMsg }}</strong>
+</p>
+<div class="container">
+  <app-child
+    [message]="message"
+    (outputEvent)="getTextFromChild($event)"
+  ></app-child>
+</div>

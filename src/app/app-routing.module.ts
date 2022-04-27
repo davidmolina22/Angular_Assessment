@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CommunicationComponent } from './component-communication/pages/communication/communication.component';
 import { DisplayHideComponent } from './display-hide/pages/display-hide/display-hide.component';
 import { InicioComponent } from './inicio/pages/inicio/inicio.component';
 import { SearchOnTypeComponent } from './search-on-type/pages/search-on-type/search-on-type.component';
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'search_on_type',
     component: SearchOnTypeComponent
+  },
+  {
+    path: 'communication',
+    component: CommunicationComponent
   },
   {
     path: '**',

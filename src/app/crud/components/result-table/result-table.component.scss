@@ -1,0 +1,21 @@
+.tabla {
+  width: 60vw;
+}
+
+.header {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  i {
+    cursor: pointer;
+  }
+}

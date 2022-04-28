@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "David Molina",
+      "password": "secreto123",
+      "email": "prueba@prueba.com",
+      "suscrito": true,
+      "pais": "España",
+      "ciudad": "Jaén"
+    },
+    {
+      "id": 2,
+      "username": "Nueva prueba",
+      "password": "prueba",
+      "email": "prueba@prueba1.es",
+      "suscrito": false,
+      "pais": "Andorra",
+      "ciudad": "Andorra la Vella"
+    }
+  ]
+}

@@ -5,15 +5,16 @@ import { ResultTableComponent } from './components/result-table/result-table.com
 import { FormComponent } from './components/form/form.component';
 import { SubscribedPipe } from './pipes/subscribed.pipe';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     CrudComponent,
     ResultTableComponent,
     FormComponent,
-    SubscribedPipe
+    SubscribedPipe,
   ],
-  imports: [CommonModule, FormsModule, ReactiveFormsModule],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule, RouterModule],
   exports: [CrudComponent],
 })
 export class CrudModule {}

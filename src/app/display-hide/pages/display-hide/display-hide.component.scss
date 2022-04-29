@@ -1,34 +1,44 @@
 h4 {
-    text-align: center;
+  text-align: center;
 }
 
 button {
-    color: white;
-    background-color: black;
-    border-radius: 10px;
-    width: 120px;
-    height: 40px;
-    font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
 }
 
 .text {
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    border: 2px solid black;
-    width: 100vh;
-    height: 10vw;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    background-color: #FAAD0E;
-    border-radius: 14px;
-    box-shadow: 5px 5px 15px #6e6e6e;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  border: 2px solid black;
+  width: 100vh;
+  height: 10vw;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  background-color: #faad0e;
+  border-radius: 14px;
+  box-shadow: 5px 5px 15px #6e6e6e;
+}
+
+.out {
+  position: absolute;
+  top: 0;
+  padding: 2vw;
+  margin-left: 2vw;
+  width: 10vw;
+  font-size: 20px;
+  cursor: pointer;
 }

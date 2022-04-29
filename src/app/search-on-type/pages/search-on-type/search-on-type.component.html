@@ -1,3 +1,7 @@
+<i class="bi bi-arrow-left out" [routerLink]="['/']">Inicio</i>
 <h4>Search on Type (exercise 2)</h4>
-<app-search-bar (onDebounce)="searchCountries($event)" class="search-bar"></app-search-bar>
+<app-search-bar
+  (onDebounce)="searchCountries($event)"
+  class="search-bar"
+></app-search-bar>
 <app-result-table [paises]="paises" class="result-table"></app-result-table>

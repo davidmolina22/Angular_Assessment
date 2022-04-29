@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DisplayHideComponent } from './pages/display-hide/display-hide.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -9,7 +10,8 @@ import { DisplayHideComponent } from './pages/display-hide/display-hide.componen
     DisplayHideComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     DisplayHideComponent

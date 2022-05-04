@@ -12,6 +12,7 @@ export class ExercisesService {
     { name: 'Component Communication', url: 'communication' },
     { name: 'CRUD', url: 'crud' },
     { name: 'Light Switcher', url: 'light_switch' },
+    {name: 'Graphs with API', url: 'graphs'}
   ];
 
   get exercises() {

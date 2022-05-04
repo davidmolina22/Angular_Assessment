@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ComponentCommunicationModule } from './component-communication/component-communication.module';
 import { CrudModule } from './crud/crud.module';
 import { DisplayHideModule } from './display-hide/display-hide.module';
+import { GraphsModule } from './graphs/graphs.module';
 import { InicioModule } from './inicio/inicio.module';
 import { LightSwitchModule } from './light-switch/light-switch.module';
 import { SearchOnTypeModule } from './search-on-type/search-on-type.module';
@@ -22,7 +23,8 @@ import { SearchOnTypeModule } from './search-on-type/search-on-type.module';
     SearchOnTypeModule,
     ComponentCommunicationModule,
     CrudModule,
-    LightSwitchModule
+    LightSwitchModule,
+    GraphsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

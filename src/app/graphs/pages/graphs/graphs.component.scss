@@ -1,0 +1,25 @@
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10vh;
+
+  .chart {
+    width: 35vw;
+  }
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.out {
+  position: absolute;
+  top: 0;
+  padding: 2vw;
+  margin-left: 2vw;
+  width: 10vw;
+  font-size: 20px;
+  cursor: pointer;
+}

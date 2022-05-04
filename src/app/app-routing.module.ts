@@ -4,6 +4,7 @@ import { CommunicationComponent } from './component-communication/pages/communic
 import { CrudComponent } from './crud/pages/crud/crud.component';
 import { DisplayHideComponent } from './display-hide/pages/display-hide/display-hide.component';
 import { InicioComponent } from './inicio/pages/inicio/inicio.component';
+import { LightSwitchComponent } from './light-switch/pages/light-switch/light-switch.component';
 import { SearchOnTypeComponent } from './search-on-type/pages/search-on-type/search-on-type.component';
 
 const routes: Routes = [
@@ -14,24 +15,28 @@ const routes: Routes = [
   },
   {
     path: 'display_hide',
-    component: DisplayHideComponent
+    component: DisplayHideComponent,
   },
   {
     path: 'search_on_type',
-    component: SearchOnTypeComponent
+    component: SearchOnTypeComponent,
   },
   {
     path: 'communication',
-    component: CommunicationComponent
+    component: CommunicationComponent,
   },
   {
     path: 'crud',
-    component: CrudComponent
+    component: CrudComponent,
+  },
+  {
+    path: 'light_switch',
+    component: LightSwitchComponent,
   },
   {
     path: '**',
-    redirectTo: ''
-  }
+    redirectTo: '',
+  },
 ];
 
 @NgModule({

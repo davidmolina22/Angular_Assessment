@@ -1,0 +1,20 @@
+<div class="container">
+  <div
+    [ngClass]="{
+      red: lightsOn && selectedColor == 'red',
+      empty: !lightsOn || selectedColor != 'red'
+    }"
+  ></div>
+  <div
+    [ngClass]="{
+      yellow: lightsOn && selectedColor == 'yellow',
+      empty: !lightsOn || selectedColor != 'yellow'
+    }"
+  ></div>
+  <div
+    [ngClass]="{
+      green: lightsOn && selectedColor == 'green',
+      empty: !lightsOn || selectedColor != 'green'
+    }"
+  ></div>
+</div>

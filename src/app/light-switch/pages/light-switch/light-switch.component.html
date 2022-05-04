@@ -1,0 +1,19 @@
+<h4>Light Switcher (exercise 5)</h4>
+<i class="bi bi-arrow-left out" [routerLink]="['/']" >Inicio</i>
+<app-traffic-light
+  [lightsOn]="lightsOn"
+  [selectedColor]="selectedColor"
+></app-traffic-light>
+
+<form>
+  <h2>Controlador</h2>
+  <select (change)="getSelectedColor($event)">
+    <option *ngFor="let color of getColorsFromEnum()" value="{{ color }}">
+      {{ color | translate | titlecase }}
+    </option>
+  </select>
+  <label
+    ><input type="checkbox" (change)="toggleOn($event)" />
+    Encendido/apagado</label
+  >
+</form>

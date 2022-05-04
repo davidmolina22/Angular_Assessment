@@ -11,6 +11,7 @@ export class ExercisesService {
     { name: 'Search on Typing', url: 'search_on_type' },
     { name: 'Component Communication', url: 'communication' },
     { name: 'CRUD', url: 'crud' },
+    { name: 'Light Switcher', url: 'light_switch' },
   ];
 
   get exercises() {

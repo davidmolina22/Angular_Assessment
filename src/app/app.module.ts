@@ -8,6 +8,7 @@ import { ComponentCommunicationModule } from './component-communication/componen
 import { CrudModule } from './crud/crud.module';
 import { DisplayHideModule } from './display-hide/display-hide.module';
 import { InicioModule } from './inicio/inicio.module';
+import { LightSwitchModule } from './light-switch/light-switch.module';
 import { SearchOnTypeModule } from './search-on-type/search-on-type.module';
 
 @NgModule({
@@ -21,6 +22,7 @@ import { SearchOnTypeModule } from './search-on-type/search-on-type.module';
     SearchOnTypeModule,
     ComponentCommunicationModule,
     CrudModule,
+    LightSwitchModule
   ],
   providers: [],
   bootstrap: [AppComponent],

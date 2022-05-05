@@ -10,4 +10,3 @@ Project with the Angular Fundamentals & Reactive Programming practical assessmen
 * Search on typing
 * Light switcher
 * Graphs (APIs. External & 3rd party libraries)
-* Counter

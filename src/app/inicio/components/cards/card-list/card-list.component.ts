@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Exercise } from 'src/app/inicio/interfaces/exercise.interface';
 import { ExercisesService } from 'src/app/inicio/services/exercises.service';
 
 @Component({

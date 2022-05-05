@@ -9,6 +9,7 @@
   <h2>Controlador</h2>
   <select (change)="getSelectedColor($event)">
     <option *ngFor="let color of getColorsFromEnum()" value="{{ color }}">
+      <!-- We use the translate pipe to translate the color to spanish -->
       {{ color | translate | titlecase }}
     </option>
   </select>

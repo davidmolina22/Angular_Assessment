@@ -15,6 +15,7 @@ export class ExercisesService {
     {name: 'Graphs with API', url: 'graphs'}
   ];
 
+  // Getter
   get exercises() {
     return this._exercises;
   }

@@ -7,7 +7,6 @@ import { User } from '../../interfaces/user.interface';
   styleUrls: ['./crud.component.scss'],
 })
 export class CrudComponent implements OnInit {
-  // Estos usuarios tienen que venir desde el servicio, llamando al backend
   users: User[] = [];
 
   constructor() {}

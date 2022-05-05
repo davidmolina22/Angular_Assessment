@@ -15,14 +15,12 @@
       <td>{{ user.username }}</td>
       <td>{{ user.email }}</td>
       <td><i class="{{ user.suscrito | subscribed }}"></i></td>
-      <!--TODO: Cambiar funciona por el icono -->
       <td>{{ user.pais }}</td>
       <td>{{ user.ciudad }}</td>
       <td class="icons">
         <i class="bi bi-pencil-fill" (click)="writeForm(user)"></i
         ><i class="bi bi-trash3-fill" (click)="deleteUser(user)"></i>
       </td>
-      <!-- TODO: Cambiar por iconos -->
     </tr>
   </tbody>
 </table>

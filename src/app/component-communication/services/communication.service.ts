@@ -17,6 +17,7 @@ export class CommunicationService {
     // Initialize variables
     this.parentText    = new EventEmitter<string>();
     this.childText     = new EventEmitter<string>();
+    
     this.parentSubject = new Subject<string>();
     this.childSubject  = new Subject<string>();
   }
